@@ -4,7 +4,7 @@
 #  _ / /\__ \ | | | | | (__
 # (_)___|___/_| |_|_|  \___|
 #
-#
+# 
 
 
 # Starship prompt
@@ -18,8 +18,9 @@ SAVEHIST=10000
 
 
 # Aliases
-alias ls='eza --icons colour=always -la' 
+# // System
+alias ls='eza --icons -a' 
 alias vim='code'
 alias svim='sudo vim'
-alias update='~/scripts/updates/sh'
+alias update='~/scripts/updates.sh'
 alias info='pfetch'
