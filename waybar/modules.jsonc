@@ -1,71 +1,33 @@
 {
-  
-// Workspaces (Hyprland)
-    "hyprland/workspaces": {
-    "disable-scroll": false,
-    "all-outputs": true,
-    "format": "{icon}",
-    "on-click": "activate",
-    "persistent-workspaces": {
-    "*":[1,2,3,4,5]
-    },
-    "format-icons": {
-      "1": "",		      // Kitty terminal workspace
-      "2": "",	       // Brave browser workspace
-      "3": "",	      // VS Code workspace
-      "4": "",      // Files workspace
-      "5": "",     // Spotify workspace
-   }   
- },
 
-// Date and time
-  "clock": {
-    "format": "{:%d %B %Y | %H:%M}",
-    "calendar": {
-      "format": {
-        "days": "<span weight='normal'>{}</span>",
-        "months": "<span color='#cdd6f4'><b>{}</b></span>",
-        "today": "<span color='#f38ba8' weight='700'><u>{}</u></span>",
-        "weekdays": "<span color='#f9e2af'><b>{}</b></span>",
-        "weeks": "<span color='#a6e3a1'><b>W{}</b></span>",
-      },
-      "mode": "month",
-      "mode-mon-col": 1,
-      "on-scroll": 1,
-    },
-    "tooltip-format": "<span color='#cdd6f4' font='Lexend 16'><tt><small>{calendar}</small></tt></span>",
-  },
+// Include list of modules and configuration
+  "include": "~/.config/waybar/modules.jsonc",
 
-// Network
-    "network": {
-    "format": " ",
-    "format-wifi": " {signalStrength}%",
-    "format-disconnected": "󱚼 ",
-    "tooltip-format-disconnected": "󱚼 ",
-    "max-length": 50,
-    "tooltip-format": "  {essid}",
-  },
+// General Waybar configuration
+    "layer": "top",
+    "position": "top",
+    "mod": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "gtk-layer-shell": true,
+    "height": 50,
+    "margin-right": 5,
+    "margin-left": 5, 
 
-// Audio
-    "pulseaudio": {
-    "format": "{icon} {volume}%",
-    "format-muted": " muted",
-    "format-icons": {
-      "headphone": "",
-      "default": [" ", " ", " "],
-    },
+// Modules on the left
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
 
-    "on-click": "pavucontrol",
-  },
-
-// Battery
-    "battery": {
-    "states": {
-      "good": 90,
-      "warning": 30,
-      "critical": 20
-    },
-    "format": " {capacity}%",
-    "format-icons": ["", "", "", "", ""]
-  },
-}
+// Modules in the middle 
+        "modules-center": [
+        "clock"
+    ],
+    
+// Modules on the right
+    "modules-right":[
+        "network",
+        "pulseaudio",
+        "battery"
+    ],
+  }
