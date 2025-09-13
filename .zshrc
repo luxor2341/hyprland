@@ -18,7 +18,6 @@ SAVEHIST=10000
 
 
 # Aliases
-# // System
 alias ls='eza --icons -a' 
 alias vim='code'
 alias svim='sudo vim'
