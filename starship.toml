@@ -1,5 +1,4 @@
 format = """
-(fg:#394260 bg:#212736)\
 $directory\
 $git_branch\
 $git_status\
@@ -16,11 +15,12 @@ $nim\
 $rust\
 $scala\
 $docker_context\
+bca9e1\
 $character\
 """
 
 [character]
-success_symbol = ""
+success_symbol = "[](bold #bb9af7)"
 error_symbol = ""
 
 [username]
