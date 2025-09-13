@@ -12,4 +12,4 @@ SAVEHIST=10000
 alias ls='eza --icons --colour=always -a'
 alias vim='code'
 alias svim='sudo nano'
-alias updates='~/scripts/updates.sh'
+alias update='~/scripts/updates.sh'
