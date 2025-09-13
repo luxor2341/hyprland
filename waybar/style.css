@@ -70,8 +70,7 @@ window#waybar.empty #window {
 }
 
 #battery.warning:not(.charging) {
-        background-color: #2c3140;
-        color: #5DA3E4;
+        color: #9ece6a;
         border-radius: 15px 15px 15px 15px;
 }
 
