@@ -1,3 +1,12 @@
+#            _
+#    _______| |__  _ __ ___
+#   |_  / __| '_ \| '__/ __|
+#  _ / /\__ \ | | | | | (__
+# (_)___|___/_| |_|_|  \___|
+#
+#
+
+
 # Starship prompt
 eval "$(starship init zsh)"
 
@@ -9,7 +18,8 @@ SAVEHIST=10000
 
 
 # Aliases
-alias ls='eza --icons --colour=always -a'
+alias ls='eza --icons colour=always -la' 
 alias vim='code'
-alias svim='sudo nano'
-alias update='~/scripts/updates.sh'
+alias svim='sudo vim'
+alias update='~/scripts/updates/sh'
+alias info='pfetch'
