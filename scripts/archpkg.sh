@@ -19,6 +19,8 @@ packages=(
   unzip
   pavucontrol
   visual-studio-code-bin  
+  pfetch
+  duf
 )
 
 for package in ${packages[@]}; do
