@@ -4,22 +4,20 @@
 #  _ / /\__ \ | | | | | (__
 # (_)___|___/_| |_|_|  \___|
 #
-# 
+#
 
-
-# Starship prompt
+# /----- Starship prompt -----\
 eval "$(starship init zsh)"
 
-
-# zsh history
-HISTFILE=~/.zsh_history 
+# /----- zsh history -----\
+HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-
-# Aliases
-alias ls='eza --icons -a' 
-alias vim='code'
-alias svim='sudo vim'
-alias update='~/scripts/updates.sh'
-alias info='pfetch'
+# /----- Aliases -----\
+alias ls='eza --icons --colour=always -a'
+alias v='nvim'
+alias vi='sudo nvim'
+alias syu='~/scripts/updates.sh'
+alias i='pfetch'
+alias end='pkill'
