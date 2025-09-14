@@ -9,6 +9,7 @@ packages=(
   hyprpaper
   hyprlock
   hyprshot
+  swaync
   ttf-jetbrains-mono
   ttf-font-awesome
   bluez
