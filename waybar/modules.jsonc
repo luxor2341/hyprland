@@ -10,16 +10,8 @@
     "*":[1,2,3,4,5]
     },
     "format-icons": {
-  // Kitty terminal workspace
-      "1": "",
-  // Brave browser workspace
-      "2": "",
-  // VS Code workspace
-      "3": "",
-  // Dolphin workspace
-      "4": "",
-  // Spotify workspace
-      "5": ""
+       "default": "○",
+      "active": ""
    }   
  },
 
