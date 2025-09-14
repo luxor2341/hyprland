@@ -2,6 +2,7 @@
 
 packages=(
   zsh
+  nvim # Removed VS Code and replaced with Neovim
   eza
   btop
   starship
@@ -20,12 +21,11 @@ packages=(
   dnsutils
   unzip
   pavucontrol
-  visual-studio-code-bin  
   pfetch
   duf
-  thunar
-  nwg-look
-  tokyonight-gtk-theme-git
+  thunar # Replaced Dolphin
+  nwg-look # Added tool to change theme
+  tokyonight-gtk-theme-git # Added GTK theme
 )
 
 for package in ${packages[@]}; do
