@@ -24,6 +24,7 @@ packages=(
   duf
   thunar
   nwg-look
+  tokyonight-gtk-theme-git
 )
 
 for package in ${packages[@]}; do
