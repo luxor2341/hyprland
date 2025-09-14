@@ -1,6 +1,6 @@
 {
   
-// Workspaces (Hyprland)
+// Workspaces
     "hyprland/workspaces": {
     "disable-scroll": false,
     "all-outputs": true,
