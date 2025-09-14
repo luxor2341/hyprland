@@ -15,7 +15,7 @@
    }   
  },
 
-// Clock
+// Date & time
   "clock": {
     "format": "{:%d %B %Y | %H:%M}",
     "calendar": {
@@ -43,7 +43,7 @@
     "tooltip-format": "  {essid}",
   },
 
-// Audio
+// Pulseaudio
     "pulseaudio": {
     "format": "{icon} {volume}%",
     "format-muted": " muted",
