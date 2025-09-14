@@ -8,6 +8,7 @@ packages=(
   waybar
   hyprpaper
   hyprlock
+  hyprshot
   ttf-jetbrains-mono
   ttf-font-awesome
   bluez
@@ -21,6 +22,8 @@ packages=(
   visual-studio-code-bin  
   pfetch
   duf
+  thunar
+  nwg-look
 )
 
 for package in ${packages[@]}; do
